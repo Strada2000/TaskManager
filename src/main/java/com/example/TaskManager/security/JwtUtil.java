@@ -1,4 +1,5 @@
-import io.jsonwebtoken.Claims;
+package com.example.TaskManager.security;
+
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.security.core.userdetails.UserDetails;
