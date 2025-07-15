@@ -29,3 +29,5 @@ services:
 
 volumes:
   pgdata:
+env_file:
+  - .env
