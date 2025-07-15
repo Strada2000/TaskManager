@@ -40,7 +40,7 @@ A Spring Boot REST API for managing tasks, with JWT authentication, PostgreSQL d
 - `POST /api/tasks` — Create a new task (requires JWT)
 - `PUT /api/tasks/{id}` — Update a task (requires JWT)
 - `DELETE /api/tasks/{id}` — Delete a task (requires JWT)
-- `GET /api/admin/status` — Admin-only endpoint
+- `GET /api/admin/status` — Administrator-only endpoint
 
 ### Configuration
 
